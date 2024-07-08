@@ -25,7 +25,7 @@
 // }
 
 
-let score = 80;
+let score = 90;
 
 // Define the grade ranges and corresponding letters (sorted from lowest to highest)
 const grades = [
