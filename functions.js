@@ -22,3 +22,4 @@ function displayProduct() {
 }
 
 console.log(displayProduct());
+

@@ -1,10 +1,4 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Functions in Javascript</title>
-    <style>
+
         body {
             font-family: Arial, sans-serif;
             margin: 0;
@@ -14,7 +8,7 @@
             align-items: center;
             justify-content: center;
             height: 100vh;
-            background-color: #f0f0f0;
+            background-color: #d8d403;
         }
         
         h2 {
@@ -37,35 +31,6 @@
         }
 
         button:hover {
-            background-color: #45a049;
+            background-color: #d18410;
         }
-    </style>
-</head>
-<body>
-    <h2>Javascript Functions</h2>
-
-    <button id="greetingsBtn" onclick="alert(displaySum())">
-        Click to see the results of adding 2 numbers
-    </button>
-    
-    <button id="nameBtn" onclick="displayName()">
-        Click to see the name
-    </button>
-
-    <script>
-        function displaySum() {
-            var num1 = 10;
-            var num2 = 30;
-
-            var sum = num1 + num2;
-
-            alert(sum);
-        }
-
-        function displayName() {
-            var name = "John Doe";
-            alert(name);
-        }
-    </script>
-</body>
-</html>
+   

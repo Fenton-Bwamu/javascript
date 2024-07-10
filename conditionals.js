@@ -29,7 +29,7 @@ let score = 90;
 
 // Define the grade ranges and corresponding letters (sorted from lowest to highest)
 const grades = [
-  { minScore: 0, letterGrade: "F" },
+  { minScore: 0, letterGrade: "E" },
   { minScore: 60, letterGrade: "D" },
   { minScore: 70, letterGrade: "C" },
   { minScore: 80, letterGrade: "B" },
