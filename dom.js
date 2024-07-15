@@ -25,7 +25,7 @@ printToDom.appendChild(newDish);
 
 
 const newPets = document.createElement("h1");
-const headingTitlpets= document.createTextNode("My Favorite Pet is a mouse");
+const headingTitlpets= document.createTextNode("My Favorite is a mouse");
 
 newPets.appendChild(headingTitlpets);
 
@@ -40,5 +40,7 @@ newColor.appendChild(headingTitlecolor);
 
 const printeToDom = document.getElementById("newElement");
 printToDom.appendChild(newColor);
+
+
 
 
